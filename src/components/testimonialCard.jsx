@@ -19,7 +19,7 @@ const TestimonialCard = ({ name, country, message, image }) => {
         </div>
   
         {/* Message */}
-        <p className="text-gray-600 leading-relaxed">
+        <p className="text-gray-600 leading-relaxed overflow-hidden">
           “{message}”
         </p>
   

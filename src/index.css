@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10% { transform: translateX(-2px); }
+    20% { transform: translateX(2px); }
+    30% { transform: translateX(-2px); }
+    40% { transform: translateX(2px); }
+    50% { transform: translateX(0); }
+  }
+
+
+/* Smooth infinite scroll */
+@keyframes scrollX {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Utility class */
+.animate-scroll {
+  animation: scrollX 25s linear infinite;
+}

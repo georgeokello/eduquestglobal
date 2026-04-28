@@ -22,7 +22,7 @@ const Offers = () => {
         <>
             <Hero image="https://images.unsplash.com/photo-1506784983877-45594efa4cbe" title="Special Offers" tagline="Check out scholarships and limited-time opportunities." />
             <div className="p-6 max-w-5xl mx-auto">
-                <h1 className="font-title text-4xl font-bold mb-6 text-center">
+                <h1 className="font-title text-4xl font-bold text-blue-900 mb-6 text-center">
                     Special Offers
                 </h1>
 

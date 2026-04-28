@@ -1,6 +1,5 @@
 
 
-
 export const programs = [
     {
       title: "Study in Canada",

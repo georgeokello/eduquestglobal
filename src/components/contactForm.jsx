@@ -1,12 +1,17 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
+import emailjs from "emailjs-com";
 
 const ContactForm = () => {
+  const formRef = useRef();
+
   const [form, setForm] = useState({
     name: "",
     email: "",
     phone: "",
     message: "",
   });
+
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     setForm({
@@ -15,17 +20,47 @@ const ContactForm = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
-    console.log(form); // replace with EmailJS later
-    alert("Message sent!");
+    setLoading(true);
+
+    emailjs
+      .sendForm(
+        "service_tc0c5mo",     // your service ID
+        "template_yrj3ytc",    // your template ID
+        formRef.current,       // ✅ correct ref usage
+        "AD_52e45oGk67G7Qz"    // your public key
+      )
+      .then(
+        () => {
+          alert("Message sent successfully!");
+
+          // reset state
+          setForm({
+            name: "",
+            email: "",
+            phone: "",
+            message: "",
+          });
+
+          // reset actual form DOM
+          formRef.current.reset();
+
+          setLoading(false);
+        },
+        (error) => {
+          console.error(error);
+          alert("Failed to send message.");
+          setLoading(false);
+        }
+      );
   };
 
   return (
     <section className="py-6 px-6">
       <div className="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow">
 
-        <h2 className="font-title text-3xl font-bold mb-2 text-center">
+        <h2 className="font-title text-3xl font-bold text-blue-900 mb-2 text-center">
           Get In Touch
         </h2>
 
@@ -33,7 +68,7 @@ const ContactForm = () => {
           Have questions about studying abroad? We’re here to help.
         </p>
 
-        <form onSubmit={handleSubmit} className="space-y-5">
+        <form ref={formRef} onSubmit={sendEmail} className="space-y-5">
 
           {/* Name */}
           <div>
@@ -41,6 +76,7 @@ const ContactForm = () => {
             <input
               type="text"
               name="name"
+              value={form.name}
               onChange={handleChange}
               required
               className="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -54,6 +90,7 @@ const ContactForm = () => {
             <input
               type="email"
               name="email"
+              value={form.email}
               onChange={handleChange}
               required
               className="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -67,6 +104,7 @@ const ContactForm = () => {
             <input
               type="tel"
               name="phone"
+              value={form.phone}
               onChange={handleChange}
               className="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="+256..."
@@ -79,6 +117,7 @@ const ContactForm = () => {
             <textarea
               name="message"
               rows="4"
+              value={form.message}
               onChange={handleChange}
               required
               className="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -89,9 +128,10 @@ const ContactForm = () => {
           {/* Button */}
           <button
             type="submit"
-            className="w-full bg-yellow-800 text-white py-3 rounded-lg font-semibold hover:bg-yellow-900 transition"
+            disabled={loading}
+            className="w-full bg-blue-950 text-white py-3 rounded-lg font-semibold hover:bg-blue-900 transition disabled:opacity-50"
           >
-            Send Message
+            {loading ? "Sending..." : "Send Message"}
           </button>
 
         </form>

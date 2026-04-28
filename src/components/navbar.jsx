@@ -12,35 +12,37 @@ const Navbar = () => {
 
   const linkStyle = ({ isActive }) =>
     `flex items-center gap-2 text-lg transition ${isActive
-      ? "text-yellow-700 font-bold"
-      : "text-black font-bold hover:text-gray-500"
+      ? "border-b border-[#C00707] border-b-2"
+      : "text-black hover:text-gray-500 text-5xl"
     }`;
 
   return (
     <>
       {/* Top Bar */}
-      <nav className="hidden md:flex justify-between items-center p-4 bg-blue-950 text-white">
+      <nav className="hidden md:flex justify-between items-center p-4 bg-[#EBEAFF] text-white">
         <div className="space-x-4 flex">
-          <p>+256787425724</p>
-          <p>|</p>
-          <p>georgeokello335@gmail.com</p>
+          <p className="font-bold tracking-wide text-blue-900">+256782833163/ +25764363947</p>
+          <p className=" font-bold text-blue-900">|</p>
+          <p className="font-bold text-blue-900">edith.kulume@eduquestglobal.com</p>
+          <p className="font-bold text-blue-900">|</p>
+          <p className="font-bold text-blue-900">ABC BUILDING, 3e etage bureau D5/F, avenue de l’amitie</p>
         </div>
 
         <div className="space-x-4">
           <NavLink to="/" className={({ isActive }) =>
-            isActive ? "text-yellow-600 font-bold" : "text-white hover:text-gray-300"
+            isActive ? "text-[#9694FF] font-bold" : "text-[#3D3BF3] hover:text-[#9694FF] font-bold"
           }>
             Home
           </NavLink>
 
           <NavLink to="/about" className={({ isActive }) =>
-            isActive ? "text-yellow-600 font-bold" : "text-white hover:text-gray-300"
+            isActive ? "text-[#9694FF] font-bold" : "text-[#3D3BF3] hover:text-[#9694FF] font-bold"
           }>
             About
           </NavLink>
 
           <NavLink to="/contact" className={({ isActive }) =>
-            isActive ? "text-yellow-600 font-bold" : "text-white hover:text-gray-300"
+            isActive ? "text-[#9694FF] font-bold" : "text-[#3D3BF3] hover:text-[#9694FF] font-bold"
           }>
             Contact
           </NavLink>
@@ -48,7 +50,7 @@ const Navbar = () => {
       </nav>
 
       {/* Main Navbar */}
-      <nav className="flex justify-between items-center p-5 bg-white text-black shadow-md">
+      <nav className="flex justify-between items-center p-8 bg-white text-black shadow-md">
 
         {/* Logo */}
         <h2 className="font-bold text-lg">Logo</h2>
@@ -58,7 +60,7 @@ const Navbar = () => {
           <NavLink to="/courses" className={linkStyle}>
             {({ isActive }) => (
               <>
-                <GraduationCap size={25} className={isActive ? "text-yellow-700" : "text-black"} />
+                <GraduationCap size={25} className={isActive ? "text-[#C00707]" : "text-black"} />
                 Top Courses
               </>
             )}
@@ -67,7 +69,7 @@ const Navbar = () => {
           <NavLink to="/universities" className={linkStyle}>
             {({ isActive }) => (
               <>
-                <Building2 size={20} className={isActive ? "text-yellow-700" : "text-black"} />
+                <Building2 size={20} className={isActive ? "text-[#C00707]" : "text-black"} />
                 Universities
               </>
             )}
@@ -76,7 +78,7 @@ const Navbar = () => {
           <NavLink to="/offers" className={linkStyle}>
             {({ isActive }) => (
               <>
-                <Tag size={20} className={isActive ? "text-yellow-700" : "text-black"} />
+                <Tag size={20} className={isActive ? "text-[#C00707]" : "text-black"} />
                 Special Offers
               </>
             )}
@@ -85,7 +87,7 @@ const Navbar = () => {
           <NavLink to="/destinations" className={linkStyle}>
             {({ isActive }) => (
               <>
-                <Globe size={20} className={isActive ? "text-yellow-700" : "text-black"} />
+                <Globe size={20} className={isActive ? "text-[#CF0000] font-extrabold" : "text-black"} />
                 Study Destinations
               </>
             )}
