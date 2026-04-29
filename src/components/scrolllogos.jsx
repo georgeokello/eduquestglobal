@@ -1,14 +1,14 @@
 
 const universities = [
-    { name: "University of Alabama at Birmingham", logo: "images/logo/university_of_alabama.png" },
+    { name: "University of Alabama at Birmingham", logo: "eduquestglobal/images/logo/university_of_alabama.png" },
     { name: "Webster University", logo: "eduquestglobal/images/logo/Webster_University_seal.svg" },
-    { name: "Schiller International University", logo: "images/logo/Schiller_International_University.jpg" },
-    { name: "Alfred State College", logo: "images/logo/Alfred_State_College.png" },
-    { name: "University of Wisconsin-Stout", logo: "images/logo/UW-Stout-Formal-WPU-Logo_Full-Color_Flat_RGB.png" },
-    { name: "James Madison University", logo: "images/logo/James_Madison_University.png" },
-    { name: "University of Central Florida", logo: "images/logo/University_of_Central_Florida.png" },
-    { name: "University of Alabama at Birmingham", logo: "images/logo/university_of_alabama.png" },
-    { name: "Webster University", logo: "images/logo/Webster_University_seal.svg" },
+    { name: "Schiller International University", logo: "eduquestglobal/images/logo/Schiller_International_University.jpg" },
+    { name: "Alfred State College", logo: "eduquestglobal/images/logo/Alfred_State_College.png" },
+    { name: "University of Wisconsin-Stout", logo: "eduquestglobal/images/logo/UW-Stout-Formal-WPU-Logo_Full-Color_Flat_RGB.png" },
+    { name: "James Madison University", logo: "eduquestglobal/logo/James_Madison_University.png" },
+    { name: "University of Central Florida", logo: "eduquestglobal/images/logo/University_of_Central_Florida.png" },
+    { name: "University of Alabama at Birmingham", logo: "eduquestglobal/images/logo/university_of_alabama.png" },
+    { name: "Webster University", logo: "eduquestglobal/images/logo/Webster_University_seal.svg" },
   ];
   
   export default function ScrollingUniversities() {
