@@ -1,15 +1,14 @@
 
 const universities = [
-    { name: "University of Alabama at Birmingham", logo: "/logos/uab.png" },
-    { name: "Webster University", logo: "/logos/webster.png" },
-    { name: "Schiller International University", logo: "/logos/schiller.png" },
-    { name: "Alfred State College", logo: "/logos/alfred.png" },
-    { name: "University of Wisconsin-Stout", logo: "/logos/wisconsin.png" },
-    { name: "James Madison University", logo: "/logos/jmu.png" },
-    { name: "University of Central Florida", logo: "/logos/ucf.png" },
-    { name: "Fairleigh Dickinson University", logo: "/logos/fdu.png" },
-    { name: "Lewis University", logo: "/logos/lewis.png" },
-    { name: "Missouri University of Science and Technology", logo: "/logos/missouri.png" },
+    { name: "University of Alabama at Birmingham", logo: "/images/logo/university_of_alabama.png" },
+    { name: "Webster University", logo: "/images/logo/Webster_University_seal.svg" },
+    { name: "Schiller International University", logo: "/images/logo/Schiller_International_University.jpg" },
+    { name: "Alfred State College", logo: "/images/logo/Alfred_State_College.png" },
+    { name: "University of Wisconsin-Stout", logo: "/images/logo/UW-Stout-Formal-WPU-Logo_Full-Color_Flat_RGB.png" },
+    { name: "James Madison University", logo: "/images/logo/James_Madison_University.png" },
+    { name: "University of Central Florida", logo: "/images/logo/University_of_Central_Florida.png" },
+    { name: "University of Alabama at Birmingham", logo: "/images/logo/university_of_alabama.png" },
+    { name: "Webster University", logo: "/images/logo/Webster_University_seal.svg" },
   ];
   
   export default function ScrollingUniversities() {
@@ -23,13 +22,13 @@ const universities = [
             {[...universities, ...universities].map((uni, index) => (
               <div
                 key={index}
-                className="flex items-center justify-center min-w-[140px] opacity-80 hover:opacity-100 transition"
+                className="flex items-center justify-center min-w-[60px] opacity-80 hover:opacity-100 transition"
               >
                 <img
                   src={uni.logo}
                   alt={uni.name}
                   loading="lazy"
-                  className="h-12 object-contain grayscale hover:grayscale-0 transition duration-300"
+                  className="h-12 object-contain hover:grayscale-0 transition duration-300"
                 />
               </div>
             ))}

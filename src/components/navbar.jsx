@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const linkStyle = ({ isActive }) =>
     `flex items-center gap-2 text-lg transition ${isActive
-      ? "border-b border-[#C00707] border-b-2"
+      ? "border-b border-[#C00707] border-b-4"
       : "text-black hover:text-gray-500 text-5xl"
     }`;
 
