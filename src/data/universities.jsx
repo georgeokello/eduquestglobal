@@ -243,7 +243,7 @@ export const universities = [
         "1 Year Post Study Work Visa",
         "Annual Tuition Fee Starting USD 24,227",
       ],
-      image: "/images/universities/UniversityofSheffield.png",
+      image: "eduquestglobal/images/universities/UniversityofSheffield.png",
     },
     {
       country: "United Kingdom",
@@ -256,7 +256,7 @@ export const universities = [
         "1 Year Post Study Work Visa",
         "Annual Tuition Fee Starting USD 26,505",
       ],
-      image: "/images/universities/UniversityofExeter.png",
+      image: "eduquestglobal/images/universities/UniversityofExeter.png",
     },
     {
       country: "United Kingdom",
@@ -319,7 +319,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 28,858",
         ],
-        image: "/images/universities/london_world_edu_center.png",
+        image: "eduquestglobal/images/universities/london_world_edu_center.png",
     },
     {
         country: "United Kingdom",
@@ -331,7 +331,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee StartingUSD 36,414",
         ],
-        image: "/images/universities/CentralCambridge.png",
+        image: "eduquestglobal/images/universities/CentralCambridge.png",
       },
       {
         country: "United Kingdom",
@@ -344,7 +344,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 26,358",
         ],
-        image: "/images/universities/LondonMetropolitanUniversity.png",
+        image: "eduquestglobal/images/universities/LondonMetropolitanUniversity.png",
       },
       {
         country: "United Kingdom",
@@ -359,7 +359,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee StartingUSD 22,911"
         ],
-        image: "/images/universities/UniversityofWolverhampton.png",
+        image: "eduquestglobal/images/universities/UniversityofWolverhampton.png",
       },
       {
         country: "United Kingdom",
@@ -374,7 +374,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 20,140"
         ],
-        image: "/images/universities/UniversityofCumbria.png",
+        image: "eduquestglobal/images/universities/UniversityofCumbria.png",
       },
       {
         country: "United Kingdom",
@@ -388,7 +388,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 29,737"
         ],
-        image: "/images/universities/QueenUniversityBelfast.png",
+        image: "eduquestglobal/images/universities/QueenUniversityBelfast.png",
       },
       {
         country: "United Kingdom",
@@ -402,7 +402,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 6,304"
         ],
-        image: "/images/universities/KaplanUniversity.png",
+        image: "eduquestglobal/images/universities/KaplanUniversity.png",
       },
       {
         country: "United Kingdom",
@@ -416,7 +416,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 23,654"
         ],
-        image: "/images/universities/UniversityofStirling.png",
+        image: "eduquestglobal/images/universities/UniversityofStirling.png",
       },
       {
         country: "United Kingdom",
@@ -428,7 +428,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 28,115",
         ],
-        image: "/images/universities/UniversityofAberdeen.png",
+        image: "eduquestglobal/images/universities/UniversityofAberdeen.png",
       },
       {
         country: "United Kingdom",
@@ -440,7 +440,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 26,505",
         ],
-        image: "/images/universities/UniversityofExeter.png",
+        image: "eduquestglobal/images/universities/UniversityofExeter.png",
       },
   
       {
@@ -454,7 +454,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 24,465",
         ],
-        image: "/images/universities/UniversityofLaw.png",
+        image: "eduquestglobal/images/universities/UniversityofLaw.png",
       },
       {
         country: "United Kingdom",
@@ -467,7 +467,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 27,980",
         ],
-        image: "/images/universities/UniversityofKent.png",
+        image: "eduquestglobal/images/universities/UniversityofKent.png",
       },
       {
         country: "United Kingdom",
@@ -479,7 +479,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 21,965",
         ],
-        image: "/images/universities/DeMontfortUniversity.png",
+        image: "eduquestglobal/images/universities/DeMontfortUniversity.png",
       },
       {
         country: "United Kingdom",
@@ -491,7 +491,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 32,407",
         ],
-        image: "/images/universities/UniversityofBristol.png",
+        image: "eduquestglobal/images/universities/UniversityofBristol.png",
       },
       {
         country: "United Kingdom",
@@ -503,7 +503,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 22,708",
         ],
-        image: "/images/universities/UniversityofSouthWales.png",
+        image: "eduquestglobal/images/universities/UniversityofSouthWales.png",
       },
       {
         country: "United Kingdom",
@@ -516,7 +516,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 24,600",
         ],
-        image: "/images/universities/KeeleUniversity.png",
+        image: "eduquestglobal/images/universities/KeeleUniversity.png",
       },
       {
         country: "United Kingdom",
@@ -529,7 +529,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 22,708",
         ],
-        image: "/images/universities/CoventryUniversity.png",
+        image: "eduquestglobal/images/universities/CoventryUniversity.png",
       },
       {
         country: "United Kingdom",
@@ -541,7 +541,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 24,263",
         ],
-        image: "/images/universities/NottinghamTrentUniversity.png",
+        image: "eduquestglobal/images/universities/NottinghamTrentUniversity.png",
       },
       {
         country: "United Kingdom",
@@ -566,7 +566,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 25,101",
         ],
-        image: "/images/universities/BirminghamCityUniversity.png",
+        image: "eduquestglobal/images/universities/BirminghamCityUniversity.png",
       },
       {
         country: "United Kingdom",
@@ -578,7 +578,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 22,303",
         ],
-        image: "/images/universities/UniversityofHuddersfield.png",
+        image: "eduquestglobal/images/universities/UniversityofHuddersfield.png",
       },
       {
         country: "United Kingdom",
@@ -591,7 +591,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 20,207",
         ],
-        image: "/images/universities/UniversityofWolverhampton.png",
+        image: "eduquestglobal/images/universities/UniversityofWolverhampton.png",
       },
       {
         country: "United Kingdom",
@@ -603,7 +603,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 19,118",
         ],
-        image: "/images/universities/UniversityofPortsmouth.png",
+        image: "eduquestglobal/images/universities/UniversityofPortsmouth.png",
       },
       {
         country: "United Kingdom",
@@ -615,7 +615,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 19,266",
         ],
-        image: "/images/universities/UniversityofHull.png",
+        image: "eduquestglobal/images/universities/UniversityofHull.png",
       },
       {
         country: "United Kingdom",
@@ -628,7 +628,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 21,750",
         ],
-        image: "/images/universities/UniversityofLeicester.png",
+        image: "eduquestglobal/images/universities/UniversityofLeicester.png",
       },
       {
         country: "United Kingdom",
@@ -641,7 +641,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 31,291",
         ],
-        image: "/images/universities/UniversityofDundee.png",
+        image: "eduquestglobal/images/universities/UniversityofDundee.png",
       },
       {
         country: "United Kingdom",
@@ -654,7 +654,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 30,278",
         ],
-        image: "/images/universities/QueensUniversityBelfast.png",
+        image: "eduquestglobal/images/universities/QueensUniversityBelfast.png",
       },
       {
         country: "United Kingdom",
@@ -667,7 +667,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 16,865",
         ],
-        image: "/images/universities/UniversityofBradford.png",
+        image: "eduquestglobal/images/universities/UniversityofBradford.png",
       },
       {
         country: "United Kingdom",
@@ -680,7 +680,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 26,358",
         ],
-        image: "/images/universities/LondonMetropolitanUniversity.png",
+        image: "eduquestglobal/images/universities/LondonMetropolitanUniversity.png",
       },
       {
         country: "United Kingdom",
@@ -692,7 +692,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 23,654",
         ],
-        image: "/images/universities/RegentCollegeLondon.png",
+        image: "eduquestglobal/images/universities/RegentCollegeLondon.png",
       },
       {
         country: "United Kingdom",
@@ -705,7 +705,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 20,255",
         ],
-        image: "/images/universities/UniversityofNorthumbriaNewcastle.png",
+        image: "eduquestglobal/images/universities/UniversityofNorthumbriaNewcastle.png",
       },
       {
         country: "United Kingdom",
@@ -718,7 +718,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 23,249",
         ],
-        image: "/images/universities/UniversityofWorcester.png",
+        image: "eduquestglobal/images/universities/UniversityofWorcester.png",
       },
       {
         country: "United Kingdom",
@@ -731,7 +731,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 23,316",
         ],
-        image: "/images/universities/UniversityofLancashire.png",
+        image: "eduquestglobal/images/universities/UniversityofLancashire.png",
       },
       {
         country: "United Kingdom",
@@ -742,7 +742,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 22,911",
         ],
-        image: "/images/universities/UniversalHigherEducation.png",
+        image: "eduquestglobal/images/universities/UniversalHigherEducation.png",
       },
       {
         country: "United Kingdom",
@@ -755,7 +755,7 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 26,020",
         ],
-        image: "/images/universities/NavitasBrunelUniversity.png",
+        image: "eduquestglobal/images/universities/NavitasBrunelUniversity.png",
       },
       {
         country: "United Kingdom",
@@ -767,6 +767,6 @@ export const universities = [
           "1 Year Post Study Work Visa",
           "Annual Tuition Fee Starting USD 18,923",
         ],
-        image: "/images/universities/UNICAFUniversityofSuffolk.png",
+        image: "eduquestglobal/images/universities/UNICAFUniversityofSuffolk.png",
       },
   ];
