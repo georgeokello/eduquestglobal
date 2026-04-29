@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <Hero
-        image="/images/eduquest_7.jpeg"
+        image="eduquestglobal/images/eduquest_7.jpeg"
         title="Start Your Study Journey Abroad Today"
         tagline="EduQuest Global Education Placement Agency helps you find the best universities, secure admissions, and guide you every step of the way."
       />

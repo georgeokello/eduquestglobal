@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div>
-      <Hero image="/images/eduquest_3.jpeg" title="About Us" tagline="EduQuest Global helps students achieve their dreams of studying abroad." />
+      <Hero image="eduquestglobal/images/eduquest_3.jpeg" title="About Us" tagline="EduQuest Global helps students achieve their dreams of studying abroad." />
       {/* 🔹 2. Our Story */}
       <section className="py-16 px-6 max-w-5xl mx-auto">
         <h2 className="font-title text-3xl font-bold text-blue-900 mb-6 text-center">
