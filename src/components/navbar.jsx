@@ -19,30 +19,30 @@ const Navbar = () => {
   return (
     <>
       {/* Top Bar */}
-      <nav className="hidden md:flex justify-between items-center p-4 bg-[#EBEAFF] text-white">
+      <nav className="hidden md:flex justify-between items-center p-4 bg-[#9B0F06] text-white">
         <div className="space-x-4 flex">
-          <p className="font-bold tracking-wide text-blue-900">+256782833163/ +25764363947</p>
-          <p className=" font-bold text-blue-900">|</p>
-          <p className="font-bold text-blue-900">edith.kulume@eduquestglobal.com</p>
-          <p className="font-bold text-blue-900">|</p>
-          <p className="font-bold text-blue-900">ABC BUILDING, 3e etage bureau D5/F, avenue de l’amitie</p>
+          <p className="font-bold tracking-wide text-[#FFF6F6]">+256782833163/ +25764363947</p>
+          <p className=" font-bold tracking-wide text-[#FFF6F6]">|</p>
+          <p className="font-bold tracking-wide text-[#FFF6F6]">edith.kulume@eduquestglobal.com</p>
+          <p className="font-bold tracking-wide text-[#FFF6F6]">|</p>
+          <p className="font-bold tracking-wide text-[#FFF6F6]">ABC BUILDING, 3e etage bureau D5/F, avenue de l’amitie</p>
         </div>
 
         <div className="space-x-4">
           <NavLink to="/" className={({ isActive }) =>
-            isActive ? "text-[#9694FF] font-bold" : "text-[#3D3BF3] hover:text-[#9694FF] font-bold"
+            isActive ? "font-bold tracking-wide text-[#7EACB5]" : "text-[#FFF6F6] hover:text-[#9694FF] font-bold"
           }>
             Home
           </NavLink>
 
           <NavLink to="/about" className={({ isActive }) =>
-            isActive ? "text-[#9694FF] font-bold" : "text-[#3D3BF3] hover:text-[#9694FF] font-bold"
+            isActive ? "font-bold tracking-wide text-[#7EACB5]" : "text-[#FFF6F6] hover:text-[#9694FF] font-bold"
           }>
             About
           </NavLink>
 
           <NavLink to="/contact" className={({ isActive }) =>
-            isActive ? "text-[#9694FF] font-bold" : "text-[#3D3BF3] hover:text-[#9694FF] font-bold"
+            isActive ? "font-bold tracking-wide text-[#7EACB5]" : "text-[#FFF6F6] hover:text-[#9694FF] font-bold"
           }>
             Contact
           </NavLink>
@@ -98,7 +98,7 @@ const Navbar = () => {
         <div className="hidden md:block">
           <Link
             to="/contact"
-            className="border border-gray-300 px-6 py-3 rounded-lg hover:bg-gray-100 transition"
+            className="border border-gray-300 px-6 py-3 rounded-lg hover:border-[#9B0F06] transition"
           >
             Email Us Today
           </Link>

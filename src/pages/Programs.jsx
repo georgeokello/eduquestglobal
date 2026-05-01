@@ -4,7 +4,7 @@ import Card from "../components/Card";
 const Programs = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold text-blue-900 mb-6">Programs</h1>
+      <h1 className="text-3xl font-extrabold text-[#9B0F06] mb-6">Programs</h1>
 
       <div className="grid md:grid-cols-3 gap-4">
         {programs.map((prog, index) => (

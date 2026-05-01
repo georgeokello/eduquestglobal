@@ -3,7 +3,7 @@ import ScrollingUniversities from "./scrolllogos";
 
 const Hero = ({ image, title, tagline }) => {
   return (
-    <section className="bg-[#EBEAFA] py-16 px-6">
+    <section className="bg-gray-50 py-16 px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
         {/* Left Content */}
@@ -21,7 +21,7 @@ const Hero = ({ image, title, tagline }) => {
             <Link
               to="/programs"
               className="
-                bg-blue-950 text-white font-bold px-6 py-3 rounded-lg shadow
+                bg-[#9B0F06] text-white font-bold px-6 py-3 rounded-lg shadow
                   transition-all duration-300
                   hover:scale-105 hover:shadow-lg
                   animate-[shake_2.5s_ease-in-out_infinite]
@@ -32,7 +32,7 @@ const Hero = ({ image, title, tagline }) => {
 
             <Link
               to="/contact"
-              className="border border-gray-300 px-6 py-3 rounded-lg hover:bg-gray-100 transition"
+              className="border border-gray-300 px-6 py-3 rounded-lg hover:border-[#9B0F06] transition"
             >
               Get Consultation
             </Link>

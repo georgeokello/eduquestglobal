@@ -60,7 +60,7 @@ const ContactForm = () => {
     <section className="py-6 px-6">
       <div className="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow">
 
-        <h2 className="font-title text-3xl font-bold text-blue-900 mb-2 text-center">
+        <h2 className="font-title text-3xl font-extrabold text-[#9B0F06] mb-2 text-center">
           Get In Touch
         </h2>
 
@@ -129,7 +129,7 @@ const ContactForm = () => {
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-blue-950 text-white py-3 rounded-lg font-semibold hover:bg-blue-900 transition disabled:opacity-50"
+            className="w-full border border-gray-300 text-black py-3 rounded-lg font-semibold hover:bg-[#9B0F06] hover:text-white transition disabled:opacity-50"
           >
             {loading ? "Sending..." : "Send Message"}
           </button>

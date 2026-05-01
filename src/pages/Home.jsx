@@ -1,4 +1,4 @@
-import Section from "../components/Section";
+import Section from "../components/section";
 import Footer from "../components/footer";
 import Hero from "../components/hero";
 import TestimonialCard from "../components/testimonialCard";
@@ -46,7 +46,7 @@ const Home = () => {
           <div className="grid md:grid-cols-1 gap-6">
 
             <div className="p-8">
-              <h3 className="font-bold text-blue-900 text-3xl mb-4">Our Commitment</h3>
+              <h3 className="font-extrabold text-[#9B0F06] text-3xl mb-4">Our Commitment</h3>
               <p className="text-gray-600">
                 At EduQuest Global, we are committed to walking every step of the journey with our students—from the first consultation to their successful arrival and settlement abroad. Your success is our priority.
               </p>
