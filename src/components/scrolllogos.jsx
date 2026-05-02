@@ -1,6 +1,6 @@
 
 const universities = [
-    { name: "University of Alabama at Birmingham", logo: "eduquestglobal/images/logo/university_of_alabama.png" },
+    { name: "University of Alabama at Birmingham", logo: "images/logo/university_of_alabama.png" },
     { name: "Webster University", logo: "eduquestglobal/images/logo/Webster_University_seal.svg" },
     { name: "Schiller International University", logo: "eduquestglobal/images/logo/Schiller_International_University.jpg" },
     { name: "Alfred State College", logo: "eduquestglobal/images/logo/Alfred_State_College.png" },
