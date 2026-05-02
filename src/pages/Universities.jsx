@@ -21,7 +21,7 @@ const Universities = () => {
 
     return (
         <>
-            <Hero image="https://images.unsplash.com/photo-1562774053-701939374585" title="Universities" tagline="Discover top universities around the world." />
+            <Hero image="https://images.shiksha.com/mediadata/images/articles/1744019588phpVCRWzS.jpeg" title="Universities" tagline="Discover top universities around the world." />
             <div className="p-6 max-w-6xl mx-auto">
                 <h1 className="font-title text-4xl font-extrabold text-[#9B0F06] mb-6 text-center">
                     Universities

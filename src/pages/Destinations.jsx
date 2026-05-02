@@ -15,7 +15,7 @@ const Destinations = () => {
 
     return (
         <>
-            <Hero image="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnJhbmNlfGVufDB8fDB8fHww" title="Study Destinations" tagline="Learn about countries you can study in." />
+            <Hero image="https://alpharo.in/wp-content/uploads/2023/10/study-destinations.jpg" title="Study Destinations" tagline="Learn about countries you can study in." />
             <div className="p-6 max-w-6xl mx-auto">
                 <h1 className="font-title text-4xl font-extrabold text-[#9B0F06] mb-2 text-center">
                     Target Destinations
