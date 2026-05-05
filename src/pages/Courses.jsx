@@ -14,7 +14,7 @@ const Courses = () => {
         <>
             <Hero image="https://images.unsplash.com/photo-1519389950473-47ba0277781c" title="Top Courses" tagline="Explore the most popular courses for international students." />
             <div className="p-6 max-w-6xl mx-auto">
-                <h1 className="font-title text-4xl font-extrabold text-[#9B0F06] mb-6 text-center">
+                <h1 className="font-title text-4xl font-extrabold mb-6 text-center">
                     Top Courses
                 </h1>
 

@@ -23,7 +23,7 @@ const Universities = () => {
         <>
             <Hero image="https://images.shiksha.com/mediadata/images/articles/1744019588phpVCRWzS.jpeg" title="Universities" tagline="Discover top universities around the world." />
             <div className="p-6 max-w-6xl mx-auto">
-                <h1 className="font-title text-4xl font-extrabold text-[#9B0F06] mb-6 text-center">
+                <h1 className="font-title text-4xl font-extrabold mb-6 text-center">
                     Universities
                 </h1>
 

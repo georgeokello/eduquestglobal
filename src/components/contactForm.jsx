@@ -60,7 +60,7 @@ const ContactForm = () => {
     <section className="py-6 px-6">
       <div className="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow">
 
-        <h2 className="font-title text-3xl font-extrabold text-[#9B0F06] mb-2 text-center">
+        <h2 className="font-title text-3xl font-extrabold mb-2 text-center">
           Get In Touch
         </h2>
 

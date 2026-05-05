@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div>
-      <Hero image="eduquestglobal/images/eduquest_3.jpeg" title="About Us" tagline="EduQuest Global helps students achieve their dreams of studying abroad." />
+      <Hero image="images/eduquest_3.jpeg" title="About Us" tagline="EduQuest Global helps students achieve their dreams of studying abroad." />
       {/* 🔹 2. Our Story */}
       <section className="py-16 px-6 max-w-5xl mx-auto">
-        <h2 className="font-title text-3xl font-extrabold text-[#9B0F06] mb-6 text-center">
+        <h2 className="font-title text-3xl font-extrabold mb-6 text-center">
         About Us
         </h2>
 
@@ -20,7 +20,7 @@ const About = () => {
       {/* 🔹 3. Services */}
       <section className="bg-gray-50 py-16 px-6">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="font-title text-3xl font-extrabold text-[#9B0F06] mb-2">
+          <h2 className="font-title text-3xl font-extrabold mb-2">
           Our Services
           </h2>
           <h4 className="mb-10">
@@ -86,7 +86,7 @@ const About = () => {
 
       {/* 🔹 4. Why Choose Us */}
       <section className="py-16 px-6 max-w-6xl mx-auto">
-        <h2 className="font-title text-3xl font-extrabold text-[#9B0F06] mb-10 text-center">
+        <h2 className="font-title text-3xl font-extrabold mb-10 text-center">
         Why Choose EduQuest Global?
         </h2>
 
