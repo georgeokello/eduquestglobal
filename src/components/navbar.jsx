@@ -50,10 +50,14 @@ const Navbar = () => {
       </nav>
 
       {/* Main Navbar */}
-      <nav className="flex justify-between items-center p-8 bg-white text-black shadow-md">
+      <nav className="flex justify-between items-center p-8 bg-white text-black h-20 shadow-md">
 
         {/* Logo */}
-        <h2 className="font-bold text-lg">Logo</h2>
+        <img
+          src="images/logo/logo.jpeg"
+          alt="EduQuest Global Logo"
+          className="h-20 w-auto object-contain"
+        />
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-10">

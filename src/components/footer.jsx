@@ -11,7 +11,8 @@ const Footer = () => {
             Helping students achieve their dreams of studying abroad through
             expert guidance and trusted support.
           </p>
-          <p className="text-gray-400 text-sm py-2">ABC BUILDING, 3e etage bureau D5/F, avenue de l’amitie</p>
+          <p className="text-gray-400 text-sm py-2">ABC BUILDING, 3e etage bureau D5/F, avenue de l’amitie, Bujumbura Burundi</p>
+          <p className="text-gray-400 text-sm py-2">Plot 35, Ntinda Avenue 14-16 Ministers village Kampala Uganda</p>
         </div>
 
         {/* 🔹 Quick Links */}

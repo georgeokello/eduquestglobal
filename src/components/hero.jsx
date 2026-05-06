@@ -4,7 +4,7 @@ import ScrollingUniversities from "./scrolllogos";
 const Hero = ({ image, title, tagline }) => {
   return (
     <section className="bg-gray-50 py-16 px-6">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
         {/* Left Content */}
         <div>
@@ -48,6 +48,7 @@ const Hero = ({ image, title, tagline }) => {
             src={image}
             alt="Students studying abroad"
             className="w-full h-full object-cover rounded-xl shadow-lg "
+            style={{ objectPosition: "center 30%" }}
           />
         </div>
 
