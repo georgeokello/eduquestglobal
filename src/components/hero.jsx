@@ -3,16 +3,17 @@ import ScrollingUniversities from "./scrolllogos";
 
 const Hero = ({ image, title, tagline }) => {
   return (
-    <section className="bg-gray-50 py-16 px-6">
+    <section className="bg-white  bg-cover bg-center py-16 px-6" 
+    >
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
         {/* Left Content */}
         <div>
-          <h1 className="font-title text-5xl md:text-5xl font-bold leading-tight mb-6">
+          <h1 className="font-title text-5xl md:text-5xl font-extrabold text-[#0D1164] leading-tight mb-6">
             {title}
           </h1>
 
-          <p className="text-gray-600 text-lg mb-6 py-2">
+          <p className="text-[#2C2C2C] text-lg mb-6 py-2">
             {tagline}
 
           </p>
@@ -32,7 +33,7 @@ const Hero = ({ image, title, tagline }) => {
 
             <Link
               to="/contact"
-              className="border border-gray-300 px-6 py-3 rounded-lg hover:border-[#9B0F06] transition"
+              className="border border-[#9B0F06] border-1 px-6 py-3 text-[#9B0F06]  font-bold rounded-lg hover:border-[#9B0F06] transition"
             >
               Get Consultation
             </Link>

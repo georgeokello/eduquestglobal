@@ -12,14 +12,14 @@ const Navbar = () => {
 
   const linkStyle = ({ isActive }) =>
     `flex items-center gap-2 text-lg transition ${isActive
-      ? "border-b border-[#C00707] border-b-2"
-      : "text-black hover:text-gray-500 text-5xl"
+      ? "text-[#9B0F06] font-extrabold"
+      : "text-black hover:text-[#9B0F06] text-5xl"
     }`;
 
   return (
     <>
       {/* Top Bar */}
-      <nav className="hidden md:flex justify-between items-center p-4 bg-[#9B0F06] text-white">
+      <nav className="hidden md:flex justify-between items-center p-4 bg-[#0D1164] text-white">
         <div className="space-x-4 flex">
           <p className="font-bold tracking-wide text-[#FFF6F6]">+256782833163/ +25764363947</p>
           <p className=" font-bold tracking-wide text-[#FFF6F6]">|</p>
@@ -50,7 +50,7 @@ const Navbar = () => {
       </nav>
 
       {/* Main Navbar */}
-      <nav className="flex justify-between items-center p-8 bg-white text-black h-20 shadow-md">
+      <nav className="flex justify-between items-center p-8 bg-white text-black h-20 shadow-md shadow-red-500/10">
 
         {/* Logo */}
         <img
@@ -64,7 +64,7 @@ const Navbar = () => {
           <NavLink to="/courses" className={linkStyle}>
             {({ isActive }) => (
               <>
-                <GraduationCap size={25} className={isActive ? "text-[#C00707]" : "text-black"} />
+                <GraduationCap size={25} className={isActive ? "text-[#9B0F06]" : "text-black"} />
                 Top Courses
               </>
             )}
@@ -73,7 +73,7 @@ const Navbar = () => {
           <NavLink to="/universities" className={linkStyle}>
             {({ isActive }) => (
               <>
-                <Building2 size={20} className={isActive ? "text-[#C00707]" : "text-black"} />
+                <Building2 size={20} className={isActive ? "text-[#9B0F06]" : "text-black"} />
                 Universities
               </>
             )}
@@ -82,7 +82,7 @@ const Navbar = () => {
           <NavLink to="/offers" className={linkStyle}>
             {({ isActive }) => (
               <>
-                <Tag size={20} className={isActive ? "text-[#C00707]" : "text-black"} />
+                <Tag size={20} className={isActive ? "text-[#9B0F06]" : "text-black"} />
                 Special Offers
               </>
             )}
@@ -91,7 +91,7 @@ const Navbar = () => {
           <NavLink to="/destinations" className={linkStyle}>
             {({ isActive }) => (
               <>
-                <Globe size={20} className={isActive ? "text-[#CF0000] font-extrabold" : "text-black"} />
+                <Globe size={20} className={isActive ? "text-[#9B0F06] font-extrabold" : "text-black"} />
                 Study Destinations
               </>
             )}
@@ -102,7 +102,7 @@ const Navbar = () => {
         <div className="hidden md:block">
           <Link
             to="/contact"
-            className="border border-gray-300 px-6 py-3 rounded-lg hover:border-[#9B0F06] transition"
+            className="border border-[#9B0F06] border-1 px-6 py-3 text-[#9B0F06] font-bold rounded-lg hover:border-[#9B0F06] transition"
           >
             Email Us Today
           </Link>

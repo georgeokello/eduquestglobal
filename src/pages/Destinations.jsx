@@ -16,14 +16,13 @@ const Destinations = () => {
     return (
         <>
             <Hero image="https://alpharo.in/wp-content/uploads/2023/10/study-destinations.jpg" title="Study Destinations" tagline="Learn about countries you can study in." />
-            <div className="p-6 max-w-6xl mx-auto">
+            <div className="p-6 max-w-8xl mx-auto bg-gray-50">
                 <h1 className="font-title text-4xl font-extrabold mb-2 text-center">
                     Target Destinations
-                    <span className="block mx-auto mt-3 w-[40%] border-b-2 border-red-700"></span>
                 </h1>
-                <p className="text-center py-10">We assist students in accessing opportunities in top study destinations including the UK, Canada, Australia, Europe, Malaysia,Malta, France,Germany, Switzerland, South Korea, and beyond.We partner with over 500 Universities in over 50 countries</p>
+                <p className="text-center py-10 px-40">We assist students in accessing opportunities in top study destinations including the UK, Canada, Australia, Europe, Malaysia,Malta, France,Germany, Switzerland, South Korea, and beyond.We partner with over 500 Universities in over 50 countries</p>
 
-                <section className="bg-gray-50 py-20 px-6">
+                <section className="bg-gray-60 py-20 px-6">
                     <div className="max-w-7xl mx-auto space-y-20">
 
                         {Object.entries(grouped).map(([continent, items]) => (

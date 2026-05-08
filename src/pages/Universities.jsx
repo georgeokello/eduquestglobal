@@ -22,8 +22,8 @@ const Universities = () => {
     return (
         <>
             <Hero image="https://images.shiksha.com/mediadata/images/articles/1744019588phpVCRWzS.jpeg" title="Universities" tagline="Discover top universities around the world." />
-            <div className="p-6 max-w-6xl mx-auto">
-                <h1 className="font-title text-4xl font-extrabold mb-6 text-center">
+            <div className="p-6 max-w-8xl mx-auto">
+                <h1 className="font-title text-4xl text-[#0D1164] font-extrabold mb-6 text-center">
                     Universities
                 </h1>
 
@@ -36,7 +36,7 @@ const Universities = () => {
                                 placeholder="Search universities..."
                                 value={search}
                                 onChange={(e) => setSearch(e.target.value)}
-                                className="w-full px-5 py-4 rounded-full border border-gray-300 shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-900"
+                                className="w-full px-5 py-4 rounded-full border border-gray-400 shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-900"
                             />
                         </div>
 

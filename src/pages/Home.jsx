@@ -1,6 +1,7 @@
 import Section from "../components/section";
 import Footer from "../components/footer";
 import Hero from "../components/hero";
+import VideoPlayer from "../components/videoplayer";
 import TestimonialCard from "../components/testimonialCard";
 
 const Home = () => {
@@ -13,18 +14,20 @@ const Home = () => {
       />
 
       {/* 🔹 Image + Mission Section */}
-      <section className="bg-gray-50 py-10 px-4 md:px-10 grid md:grid-cols-12 gap-6">
+      <section className="bg-gray-50 py-10 px-4 md:px-10 grid md:grid-cols-12 gap-6"
+
+      >
 
         {/* Text */}
-        <div className="bg-white flex flex-col justify-center items-center text-center p-6 md:col-span-4 rounded-xl space-y-6">
+        <div className="bg-white inset-0 bg-cover bg-center  flex flex-col justify-center items-center text-center p-6 md:col-span-4 rounded-xl space-y-6">
           <Section title="Our Mission">
-            <p className="text-gray-600">
+            <p className="text-[#2C2C2C]">
               To empower students with access to quality global education by providing reliable guidance, transparent processes, and continuous support throughout their academic journey.
             </p>
           </Section>
 
           <Section title="Our Vision">
-            <p className="text-gray-600">
+            <p className="text-[#2C2C2C]">
               To become a trusted leader in international student placement, recognized for integrity, excellence, and student success worldwide.
             </p>
           </Section>
@@ -41,15 +44,15 @@ const Home = () => {
 
       </section>
 
-      <section className="bg- py-16 px-6">
+      <section className="bg- py-16 px-6 bg-cover">
         <div className="max-w-6xl mx-auto text-center">
           <div className="grid md:grid-cols-1 gap-6">
 
             <div className="p-8">
-              <h3 className="font-extrabold text-3xl mb-4">
+              <h3 className="font-extrabold text-4xl mb-4 text-[#0D1164]">
                 Our Commitment
-                </h3>
-              <p className="text-gray-600">
+              </h3>
+              <p className="text-[#2C2C2C] text-lg">
                 At EduQuest Global, we are committed to walking every step of the journey with our students—from the first consultation to their successful arrival and settlement abroad. Your success is our priority.
               </p>
             </div>
@@ -134,6 +137,30 @@ const Home = () => {
           </div>
 
         </Section>
+      </section>
+
+      {/* 🔹 Testimonials */}
+      {/* Video Testimony Section */}
+      <section className="py-10 bg-gray-50">
+        <div className="max-w-5xl mx-auto px-6">
+
+          {/* Heading */}
+          <div className="text-center mb-12">
+            <h2 className="font-extrabold text-4xl mb-4 text-[#0D1164]">
+              Student Testimony
+            </h2>
+
+            <p className="mt-5 text-gray-600">
+              Hear directly from one of our successful students.
+            </p>
+          </div>
+
+          {/* Video Container */}
+          <VideoPlayer src="videos/testimonies.mp4" 
+          className="h-[500px]"
+          />
+
+        </div>
       </section>
 
       <Footer />

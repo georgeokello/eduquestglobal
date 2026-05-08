@@ -1,13 +1,13 @@
 const Footer = () => {
   return (
-    <footer className="bg-blue-950 text-gray-200 mt-10">
-      
+    <footer className="bg-[#0D1164] text-[#F3F4F4]">
+
       <div className="max-w-6xl mx-auto px-6 py-12 grid gap-10 md:grid-cols-4">
 
         {/* 🔹 Brand */}
         <div>
-          <h2 className="text-xl font-bold mb-4">EduQuest Global</h2>
-          <p className="text-gray-400 text-sm">
+          <h2 className="text-3xl font-bold mb-4">EduQuest Global</h2>
+          <p className="text-[#F3F4F4] text-sm">
             Helping students achieve their dreams of studying abroad through
             expert guidance and trusted support.
           </p>
@@ -40,7 +40,7 @@ const Footer = () => {
         {/* 🔹 Newsletter */}
         <div>
           <h3 className="font-semibold mb-4">Subscribe</h3>
-          <p className="text-sm text-gray-400 mb-3">
+          <p className="text-sm text-[#F3F4F4] mb-3">
             Get updates on new programs and special offers.
           </p>
 
@@ -48,12 +48,17 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Your email"
-              className="w-full px-3 py-2 rounded-lg text-white focus:outline-none"
+              className="
+                w-full px-3 py-2 rounded-lg
+                border border-gray-400
+                outline-none
+                focus:border-blue-500
+              "
               required
             />
             <button
               type="submit"
-              className="bg-[#3D3BF3] text-white px-4 py-2 rounded-lg hover:bg-[#DA4848] transition"
+              className="bg-[#9B0F06] text-white px-4 py-2 rounded-lg hover:bg-[#DA4848] transition"
             >
               Subscribe
             </button>
@@ -67,7 +72,7 @@ const Footer = () => {
       </div>
 
       {/* 🔹 Bottom Bar */}
-      <div className="border-t border-gray-700 text-center py-4 text-sm text-gray-400">
+      <div className="border-t border-[#F3F4F4] text-center py-4 text-sm text-gray-400">
         © 2026 EduQuest Global. All rights reserved.
       </div>
 

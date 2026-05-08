@@ -57,10 +57,10 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="py-6 px-6">
+    <section className="py-6 px-6 bg-gray-50">
       <div className="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow">
 
-        <h2 className="font-title text-3xl font-extrabold mb-2 text-center">
+        <h2 className="font-title text-4xl text-[#0D1164] font-extrabold mb-2 text-center">
           Get In Touch
         </h2>
 
