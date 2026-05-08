@@ -40,7 +40,6 @@ export default function VideoPlayer({
         ref={videoRef}
         className="w-full h-full object-contain scale-90"
         loop
-        muted
         playsInline
       >
         <source src={src} type="video/mp4" />
